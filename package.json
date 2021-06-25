@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/2haesoo/instaclone-backend/issues"
   },
-  "homepage": "https://github.com/2haesoo/instaclone-backend#readme"
+  "homepage": "https://github.com/2haesoo/instaclone-backend#readme",
+  "dependencies": {
+    "apollo-server": "^2.25.2",
+    "graphql": "^15.5.1"
+  }
 }
