@@ -1,0 +1,3 @@
+# Download Postgres app / Create Instaclone DB
+
+# Prisma migrate: npx prisma migrate dev
