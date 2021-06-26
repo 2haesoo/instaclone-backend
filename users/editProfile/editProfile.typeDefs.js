@@ -9,9 +9,9 @@ export default gql`
     editProfile(
       firstName: String
       lastName: String
-      username: String!
+      username: String
       email: String
       password: String
-    ): EditProfileResult
+    ): EditProfileResult!
   }
 `;
