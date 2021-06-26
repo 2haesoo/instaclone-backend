@@ -1,3 +1,5 @@
 # Download Postgres app / Create Instaclone DB
 
 # Prisma migrate: npx prisma migrate dev
+
+# Prisma stduio (데이터베이스 GUI): npx prisma studio
