@@ -8,6 +8,6 @@
 - [x] Change Avatar (Image Upload)
 - [x] Follow User
 - [x] Unfollow User
-- [x] See Followers
-- [] See Following
+- [x] See Followers + offset pagination
+- [x] See Following + cursor based pagination
 - [] Search Users
