@@ -33,4 +33,4 @@
 
 ## Extras
 - [x] Create AWS Account & Save API Keys
-- [] S3 Image Upload
+- [x] S3 Image Upload
