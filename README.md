@@ -6,8 +6,8 @@
 - [x] Login
 - [x] Edit Profile
 - [x] Change Avatar (Image Upload)
-- [] Follow User
-- [] Unfollow User
-- [] Search Users
-- [] See Followers
+- [x] Follow User
+- [x] Unfollow User
+- [x] See Followers
 - [] See Following
+- [] Search Users
