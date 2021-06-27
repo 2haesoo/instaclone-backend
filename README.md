@@ -24,12 +24,12 @@
 - [x] See Photo Comments
 - [x] See Feed
 - [x] Is Mine
-- [] Delete Photo
+- [x] Delete Photo
 
 ## Comments
 - [x] Comment on Photo
-- [] Edit Comment
-- [] Delete Comment (+ Is Mine)
+- [x] Edit Comment
+- [x] Delete Comment (+ Is Mine)
 
 ## Extras
 - [] S3 Image Upload
