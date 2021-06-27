@@ -13,6 +13,13 @@ export default gql`
     updatedAt: String!
     following: [User]
     followers: [User]
+    # computed fields
+    totalFollowing: Int!
+    totalFollowers: Int!
   }
 
 `;
+
+
+// isFollowing: Boolean!
+// isMe: Boolean!
