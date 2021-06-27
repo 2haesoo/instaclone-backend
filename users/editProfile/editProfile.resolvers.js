@@ -7,9 +7,10 @@ export default {
     editProfile: protectedResolver(
       async (
         _,
-        { firstName, lastName, username, email, password: newPassword, bio },
+        { firstName, lastName, username, email, password: newPassword, bio, avatar },
         { loggedInUser, protectedResolver }
       ) => {
+        console.log(avatar)
         protectedResolver(loggedInUser);
         let hashedPassword = null;
         if (newPassword) {
