@@ -16,10 +16,6 @@ export default gql`
     # computed fields
     totalFollowing: Int!
     totalFollowers: Int!
+    isMe: Boolean!
   }
-
 `;
-
-
-// isFollowing: Boolean!
-// isMe: Boolean!
