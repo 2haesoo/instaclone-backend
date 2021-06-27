@@ -12,3 +12,13 @@
 - [x] See Following + cursor based pagination
 - [x] Computed fields
 - [x] Search Users
+
+## Photos
+- [] Upload Photo (Parse #)
+- [] See Photo
+- [] See Hashtags
+- [] Search Photos
+- [] Edit Photo
+- [] Like / Unlike Photo
+- [] See Photo Likes
+- [] See Feed
