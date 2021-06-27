@@ -8,9 +8,11 @@ export default {
     hashtags: ({ id }) => {
       return client.hashtag.findMany({ where: { photos: { some: { id } } } });
     },
+    likes: ({ id }) => client.like.count({ where: { photoId: id } }),
   },
   Hashtag: {
-    photos: ({ id }, { page }) => { // not finished
+    photos: ({ id }, { page }) => {
+      // not finished
       return client.hashtag.findUnique({
         where: { id },
       });
