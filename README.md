@@ -32,4 +32,5 @@
 - [x] Delete Comment (+ Is Mine)
 
 ## Extras
+- [x] Create AWS Account & Save API Keys
 - [] S3 Image Upload
