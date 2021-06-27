@@ -14,7 +14,6 @@ export default gql`
         id: Int!
         hashtag: String!
         photos(page: Int!): [Photo]
-        photos: [Photo]
         totalPhotos: Int!
         createdAt: String!
         updatedAt: String!
