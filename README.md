@@ -4,7 +4,10 @@
 - [x] Create Account
 - [x] See Profile
 - [x] Login
-- [] Edit Profile
+- [x] Edit Profile
+- [x] Change Avatar (Image Upload)
 - [] Follow User
 - [] Unfollow User
-- [] Change Avatar
+- [] Search Users
+- [] See Followers
+- [] See Following
