@@ -23,7 +23,8 @@
 - [x] See Photo Likes
 - [x] See Photo Comments
 - [x] See Feed
-- [] Is Mine
+- [x] Is Mine
+- [] Delete Photo
 
 ## Comments
 - [x] Comment on Photo
