@@ -18,8 +18,18 @@ export default {
         return withFilter(
           () => pubsub.asyncIterator(NEW_MESSAGE),
           // (payload, variables) => return true (true 일 경우에만 subscribe)
-          ({ roomUpdates }, { id }) => {
-            return roomUpdates.roomId === id;
+          async ({ roomUpdates }, { id }, { loggedInUser }) => {
+            const room = await client.room.findFirst({
+              where: {
+                id,
+                users: { some: { id: loggedInUser.id } },
+              },
+              select: { id: true },
+            });
+            if (!room) {
+              return false;
+            }
+            return true;
           }
         )(root, args, context, info);
       },
