@@ -17,9 +17,9 @@ export default {
               },
             },
           },
-          select: {
-            id: true,
-          },
+        },
+        select: {
+          id: true,
         },
       });
       if (!message) {

@@ -6,7 +6,7 @@ export default {
     seeRooms: protectedResolver(async (_, __, { loggedInUser }) =>
       client.room.findMany({
         where: {
-          user: {
+          users: {
             some: {
               id: loggedInUser.id,
             },
