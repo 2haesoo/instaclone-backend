@@ -36,7 +36,9 @@
 - [x] S3 Image Upload
 
 ## DMs
-- [x] See Room
+- [x] See Rooms
 - [x] Send Message (+Create Room)
-- [] Get Room
+- [x] See Room
+- [x] Computed Fields
+- [x] See (Read) Message
 - [] Realtime Messages
