@@ -36,7 +36,7 @@
 - [x] S3 Image Upload
 
 ## DMs
-- [] Create Room
+- [x] See Room
 - [] Get Room
-- [] Send Message
+- [] Send Message (+Create Room)
 - [] Realtime Messages
